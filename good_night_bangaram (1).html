@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Good Night, Bangaram 🤍</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(160deg,#f8f1f7,#eee8f7 55%,#e9edf8);font-family:Georgia,"Times New Roman",serif;color:#403848;display:flex;justify-content:center;align-items:center;padding:18px}.card{width:100%;max-width:430px;min-height:calc(100vh - 28px);border-radius:30px;background:rgba(255,255,255,.88);box-shadow:0 12px 40px rgba(75,65,90,.14);padding:38px 25px 30px;text-align:center;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}.moon{font-size:58px;margin-bottom:12px}h1{font-size:34px;margin:0 0 24px;font-weight:600}.message{font-size:19px;line-height:1.75;margin:0 auto;max-width:350px}.message strong{display:block;margin-top:22px;font-size:20px}.hint{margin-top:34px;font-family:Arial,sans-serif;font-size:14px;color:#817889}button{margin:14px auto 0;border:0;border-radius:999px;padding:14px 23px;background:#f3e8f1;color:#55495a;font-size:15px;font-family:Arial,sans-serif;box-shadow:0 5px 15px rgba(70,60,80,.10);cursor:pointer;-webkit-tap-highlight-color:transparent}.secret{display:none;margin-top:25px;padding:22px 18px;border-radius:22px;background:#faf5fa;font-size:18px;line-height:1.7;animation:fade .45s ease}.secret strong{display:block;margin-top:13px;font-size:18px}.stars{position:absolute;inset:0;pointer-events:none;opacity:.45;font-size:17px}.s1{position:absolute;top:8%;left:10%}.s2{position:absolute;top:15%;right:12%}.s3{position:absolute;bottom:14%;left:8%}.s4{position:absolute;bottom:9%;right:10%}@keyframes fade{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media (min-width:431px){
+      body{background:#f5f1f5}
+      body:before{
+        content:"This little good-night page is made especially for a phone. 🤍";
+        position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+        padding:30px;text-align:center;font-family:Arial,sans-serif;color:#756775;
+        background:#fff;z-index:99;
+      }
+      .card{display:none}
+    }
+    @media (max-width:430px){
+      body{padding:14px;overflow-y:auto;overflow-x:hidden;align-items:flex-start}
+      .card{padding:30px 20px 24px;min-height:calc(100svh - 28px);margin:0 auto}
+      h1{font-size:30px}
+      .message{font-size:18px}
+      .message strong{font-size:19px}
+      .secret{font-size:17px}
+      button{min-height:48px}
+    }
+    .footer{
+  margin-top:32px;
+  padding-top:8px;
+  font-family:Arial,sans-serif;
+  font-size:13px;
+  color:#918696;
+  letter-spacing:.1px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="stars"><span class="s1">✦</span><span class="s2">·</span><span class="s3">✧</span><span class="s4">·</span></div>
+<div class="moon">🌙</div>
+<h1>Good night, Bangaram 🤍</h1>
+<div class="message">
+<div>Aaj bas sab kuch side mein rakh do.</div>
+<div>Na pain ke baare mein sochna hai,</div>
+<div>na kal ki tension leni hai.</div><br>
+<div>Aankhein band karo, aaram se so jao.</div>
+<div>Kal subah thoda aur better feel karna hai. 🥺🤍</div>
+<strong>Good night, my favourite Amul baby. 🫶🏻🌙</strong>
+</div>
+<div class="hint">One last thing before you sleep 🤍</div>
+<button onclick="showSecret()">Tap here 🌙</button>
+<div class="secret" id="secret">
+Door hoon, isliye tumhe hug nahi de sakta…<br>
+toh filhaal ye message hi rakh lo. 🫂🤍
+<strong>Ab phone side mein rakho aur so jao, okayna? 😌</strong>
+</div>
+
+<div class="footer">Made with care by your Amul Baby 🤍</div>
+</div>
+<script>
+function showSecret(){document.getElementById("secret").style.display="block";document.querySelector("button").style.display="none";document.querySelector(".hint").style.display="none";}
+</script>
+</body>
+</html>
